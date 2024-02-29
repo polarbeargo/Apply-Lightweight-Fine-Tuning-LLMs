@@ -1,6 +1,7 @@
 accelerate==0.27.2
 aiohttp==3.9.3
 aiosignal==1.3.1
+appdirs==1.4.4
 appnope==0.1.4
 asttokens==2.4.1
 async-timeout==4.0.3
@@ -16,6 +17,8 @@ datasets==2.17.0
 debugpy==1.8.1
 decorator==5.1.1
 dill==0.3.8
+docker-pycreds==0.4.0
+docstring-parser==0.15
 evaluate==0.4.1
 exceptiongroup==1.2.0
 executing==2.0.1
@@ -23,10 +26,13 @@ filelock==3.13.1
 fonttools==4.49.0
 frozenlist==1.4.1
 fsspec==2023.10.0
+gitdb==4.0.11
+GitPython==3.1.42
 huggingface-hub==0.20.3
 idna==3.6
 importlib-metadata==7.0.1
 importlib-resources==6.1.1
+install==1.3.5
 ipykernel==6.29.2
 ipython==8.18.1
 ipywidgets==8.1.2
@@ -39,9 +45,11 @@ jupyter_core==5.7.1
 jupyterlab_widgets==3.0.10
 kiwisolver==1.4.5
 lxml==5.1.0
+markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 matplotlib==3.8.3
 matplotlib-inline==0.1.6
+mdurl==0.1.2
 mpmath==1.3.0
 multidict==6.0.5
 multiprocess==0.70.16
@@ -57,6 +65,7 @@ pexpect==4.9.0
 pillow==10.2.0
 platformdirs==4.2.0
 prompt-toolkit==3.0.43
+protobuf==4.25.3
 psutil==5.9.8
 ptyprocess==0.7.0
 pure-eval==0.2.2
@@ -71,11 +80,16 @@ pyzmq==25.1.2
 regex==2023.12.25
 requests==2.31.0
 responses==0.18.0
+rich==13.7.1
 safetensors==0.4.2
 scikit-learn==1.4.1.post1
 scipy==1.12.0
+sentry-sdk==1.40.6
+setproctitle==1.3.3
+shtab==1.7.0
 six==1.16.0
 sklearn==0.0
+smmap==5.0.1
 stack-data==0.6.3
 sympy==1.12
 threadpoolctl==3.3.0
@@ -86,9 +100,12 @@ tornado==6.4
 tqdm==4.66.2
 traitlets==5.14.1
 transformers @ git+https://github.com/huggingface/transformers.git@63caa370e6c618dbe7d3fd4cbf545cc32eca1a15
+trl @ git+https://github.com/huggingface/trl@b32656f7266c02500ea346eda75a0db7a9a1bb75
 typing_extensions==4.9.0
+tyro==0.7.3
 tzdata==2024.1
 urllib3==2.2.1
+wandb==0.16.3
 wcwidth==0.2.13
 widgetsnbextension==4.0.10
 xxhash==3.4.1
