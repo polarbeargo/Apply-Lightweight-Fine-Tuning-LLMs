@@ -124,7 +124,7 @@ History      |  Summary
 - [Wandb Report Link](https://api.wandb.ai/links/bow1226/r6g4akdw)
 - [kaggle notebook link](https://www.kaggle.com/code/hsinwenchang/lightweightfinetuningnlpqlora-ipynb)
 
-- [Saved PEFT Model directory](https://github.com/polarbeargo/Apply-Lightweight-Fine-Tuning-LLMs/tree/main/gpt2-lora):
+- [Saved PEFT Model directory](https://github.com/polarbeargo/Apply-Lightweight-Fine-Tuning-LLMs/tree/main/gpt2-lora)
 
 #### nvidia/mit-b0 Model Architecture
 
