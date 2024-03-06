@@ -4,18 +4,19 @@
 [image2]: ./images/gpt2train.png
 [image3]: ./images/gpt2RunHistory.png
 [image4]: ./images/GPT2Summary.png
-[image5]: ./images/pefttrain.png
-[image6]: ./images/peftRunHistory.png
-[image7]: ./images/PEFTSummary.png
+[image5]: ./images/gpt2train.png
+[image6]: ./images/lorahistorygpt2.png
+[image7]: ./images/loragpt2Summary.png
 
 ## Environment Setup
 
-- Run the following commands to setup the environment:
+- Run the following commands to setup the local environment:
 
 ```
 chmod +x setupLightweightFineTuningLLMs.sh  
 ./setupLightweightFineTuningLLMs.sh
 ```
+- You can also directly execute the kaggle notebooks from the links provided below.
 
 ## Fine-Tuning
 
@@ -123,9 +124,7 @@ History      |  Summary
 - [Wandb Report Link](https://api.wandb.ai/links/bow1226/r6g4akdw)
 - [kaggle notebook link](https://www.kaggle.com/code/hsinwenchang/lightweightfinetuningnlpqlora-ipynb)
 
-- Inference Results: To be updated soon.
-
-- [Saved PEFT Model directory](https://github.com/polarbeargo/Apply-Lightweight-Fine-Tuning-LLMs/tree/main/segformer-scene-parse-150-lora): To be updated soon.
+- [Saved PEFT Model directory](https://github.com/polarbeargo/Apply-Lightweight-Fine-Tuning-LLMs/tree/main/gpt2-lora):
 
 #### nvidia/mit-b0 Model Architecture
 
@@ -947,5 +946,7 @@ PeftModel(
 
 - Increase the number of epochs for both notebook.
 - For NLP notebook use a larger model such as [abacusai/Smaug-72B-v0.1](https://huggingface.co/abacusai/Smaug-72B-v0.1) to see if the performance improves if our hardware have enough memory to load the model.
-- 
--
+- Increase the number of training data for both notebook.
+- Try a larger SegFormer model variant such as [nvidia/segformer...](https://huggingface.co/models?search=segformer) to see if the performance improves if our hardware have enough memory to load the model.
+- Perform hyperparameter tuning for both notebooks.
+- Experiment with different values for the arguments that LoraConfig provides.
