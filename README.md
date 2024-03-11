@@ -61,7 +61,7 @@ History      |  Summary
 :-------------------------:|:-------------------------:
 ![][image3]                | ![][image4]  
 
-- [Wandb Report Link](https://wandb.ai/bow1226/Fine%20tuning%20gpt2/reports/GPT2-QLoRA---Vmlldzo3MDAyMTE0)
+- [Wandb Report Link](https://api.wandb.ai/links/bow1226/y0helc1k)
 
 - [kaggle notebook link](https://www.kaggle.com/code/hsinwenchang/lightweightfinetuningnlp-ipynb)
 
@@ -121,7 +121,7 @@ History      |  Summary
 :-------------------------:|:-------------------------:
 ![][image6]                | ![][image7]  
 
-- [Wandb Report Link](https://api.wandb.ai/links/bow1226/r6g4akdw)
+- [Wandb Report Link](https://api.wandb.ai/links/bow1226/y3xiq51q)
 - [kaggle notebook link](https://www.kaggle.com/code/hsinwenchang/lightweightfinetuningnlpqlora-ipynb)
 
 - [Saved PEFT Model directory](https://github.com/polarbeargo/Apply-Lightweight-Fine-Tuning-LLMs/tree/main/gpt2-lora)
